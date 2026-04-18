@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay More | Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Jay More — Computer Engineer specializing in full-stack development, AI systems, and scalable digital experiences. B.Tech CS at NMIMS University." />
+  <meta name="keywords" content="Jay More, Computer Engineer, Portfolio, Full Stack Developer, AI, NMIMS" />
+  <meta name="author" content="Jay More" />
+  <meta property="og:title" content="Jay More — Computer Engineer" />
+  <meta property="og:description" content="Building intelligent systems & scalable digital experiences." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/glitch-goblin" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Cursor glow -->
+  <div id="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav id="main-nav" class="nav">
+    <a href="#hero" class="alexandria">JM<span class="accent">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#job-preferences" class="nav-link nav-link-glow">Open For</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Switch theme">
+      <span class="theme-icon-moon">🌙</span>
+      <span class="theme-icon-sun">☀️</span>
+    </button>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div id="mobile-menu" class="mobile-menu">
+    <ul class="mobile-menu-links">
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#education" class="mobile-link">Education</a></li>
+      <li><a href="#job-preferences" class="mobile-link">Open For</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#achievement" class="mobile-link">Achievement</a></li>
+      <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══════════════ HERO SECTION ═══════════════ -->
+  <section id="hero" class="hero">
+    <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge" data-animate="fade-down">
+        <span class="badge-dot"></span>
+        <span>Computer Engineer</span>
+      </div>
+      <h1 class="hero-name" data-animate="glitch">
+        <span class="glitch-text" data-text="JAY MORE">JAY MORE</span>
+      </h1>
+      <p class="hero-subtitle" data-animate="fade-up">
+        <span class="typed-text"></span><span class="type-cursor">|</span>
+      </p>
+      <p class="hero-tagline" data-animate="fade-up-delay">
+        Building intelligent systems &amp; scalable digital experiences
+      </p>
+      <div class="hero-status" data-animate="fade-up-delay">
+        <span class="status-dot"></span>
+        <span>Available for Hire</span>
+      </div>
+      <div class="hero-cta" data-animate="fade-up-delay2">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-text">Scroll Down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT SECTION ═══════════════ -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title" data-scroll-reveal>
+        <span class="title-accent">//</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-card glass-panel" data-scroll-reveal>
+          <div class="about-text">
+            <p>
+              I'm <strong>Jay More</strong>, a Computer Science student at <strong>Mukesh Patel School Of Technology
+                Management and Engineering (MPSTME), SVKM's NMIMS University</strong>
+              (B.Tech 2023–Present), driven by a deep passion for building innovative technology that makes a
+              difference.
+            </p>
+            <p>
+              My expertise spans <strong>full-stack development</strong> and <strong>AI-powered systems</strong> — from
+              designing intelligent synthetic data generators to architecting scalable real estate platforms and
+              e-commerce ecosystems. I thrive at the intersection of creativity and engineering.
+            </p>
+            <p>
+              With a strong foundation in <strong>Data Structures, DBMS, and System Design</strong>, I approach every
+              project with both technical rigor and a product-oriented mindset. I'm constantly exploring new
+              technologies and turning complex ideas into polished, real-world applications.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Major Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="6">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info glass-panel" data-scroll-reveal>
+          <div class="info-row">
+            <span class="info-label">🎓 Education</span>
+            <span class="info-value">B.Tech CS — NMIMS University</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">🎂 Date of Birth</span>
+            <span class="info-value">March 17, 2004</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">📍 Focus</span>
+            <span class="info-value">Full-Stack &amp; AI Systems</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">⚡ Interests</span>
+            <span class="info-value">System Design, UI/UX, AIML, Data Analytics, Cyber Security</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">💰 Expected CTC</span>
+            <span class="info-value">INR 12,00,000 per year</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">🌍 Willing to Relocate</span>
+            <span class="info-value info-highlight">YES</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ EDUCATION SECTION ═══════════════ -->
+  <section id="education" class="section education">
+    <div class="container">
+      <h2 class="section-title" data-scroll-reveal>
+        <span class="title-accent">//</span> Education
+      </h2>
+      <div class="edu-timeline">
+        <!-- B.Tech -->
+        <div class="edu-card glass-panel" data-scroll-reveal>
+          <div class="edu-status-badge">Current</div>
+          <div class="edu-header">
+            <span class="edu-degree">B.Tech (UG)</span>
+            <span class="edu-duration">05-06-2023 → Present</span>
+          </div>
+          <h3 class="edu-institute">Mukesh Patel School Of Technology Management and Engineering</h3>
+          <p class="edu-university">SVKM's NMIMS Deemed to be University</p>
+          <div class="edu-details">
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">Course</span>
+              <span class="edu-detail-value">Bachelor of Technology (BTech)</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">Specialization</span>
+              <span class="edu-detail-value">Computer Science</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">CGPA</span>
+              <span class="edu-detail-value">2.40 / 4.00</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">Percentage</span>
+              <span class="edu-detail-value">60%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Diploma -->
+        <div class="edu-card glass-panel" data-scroll-reveal>
+          <div class="edu-header">
+            <span class="edu-degree">Diploma</span>
+            <span class="edu-duration">10-02-2021 → 13-05-2023</span>
+          </div>
+          <h3 class="edu-institute">R.C. Patel Polytechnic College, Shirpur</h3>
+          <p class="edu-university">University of Mumbai</p>
+          <div class="edu-details">
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">Course</span>
+              <span class="edu-detail-value">Diploma in Computer Science Engineering</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">Specialization</span>
+              <span class="edu-detail-value">Computer Engineering</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">Percentage</span>
+              <span class="edu-detail-value edu-highlight">75%</span>
+            </div>
+          </div>
+        </div>
+        <!-- SSC -->
+        <div class="edu-card glass-panel" data-scroll-reveal>
+          <div class="edu-header">
+            <span class="edu-degree">SSC</span>
+            <span class="edu-duration">15-06-2019 → 31-03-2020</span>
+          </div>
+          <h3 class="edu-institute">R.C. Patel English Medium Secondary School</h3>
+          <p class="edu-university">Maharashtra State Board of Secondary and Higher Secondary Education</p>
+          <div class="edu-details">
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">Medium</span>
+              <span class="edu-detail-value">English</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="edu-detail-label">Percentage</span>
+              <span class="edu-detail-value edu-highlight">86.20%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SKILLS SECTION ═══════════════ -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title" data-scroll-reveal>
+        <span class="title-accent">//</span> Skills &amp; Tech
+      </h2>
+
+      <div class="skills-grid">
+
+        <!-- Languages -->
+        <div class="skill-category glass-panel" data-scroll-reveal>
+          <h3 class="skill-category-title">
+            <span class="cat-icon">⟨/⟩</span> Languages
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-category glass-panel" data-scroll-reveal>
+          <h3 class="skill-category-title">
+            <span class="cat-icon">⚙</span> Frameworks
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Angular</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">Material UI</span>
+            <span class="skill-tag">ShadCN UI</span>
+            <span class="skill-tag">Framer Motion</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">WebSockets</span>
+            <span class="skill-tag">React Native</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Android</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category glass-panel" data-scroll-reveal>
+          <h3 class="skill-category-title">
+            <span class="cat-icon">🛠</span> Tools
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Sublime Text</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">Canva</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Tableau</span>
+            <span class="skill-tag">Notion</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">Netlify</span>
+            <span class="skill-tag">Docker Desktop</span>
+            <span class="skill-tag">ChatGPT</span>
+            <span class="skill-tag">Gemini</span>
+            <span class="skill-tag">GitHub Copilot</span>
+            <span class="skill-tag">Chrome DevTools</span>
+            <span class="skill-tag">Vibe Coding</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Discord</span>
+            <span class="skill-tag">MATLAB</span>
+            <span class="skill-tag">AI Tools</span>
+            <span class="skill-tag">FIVER</span>
+            <span class="skill-tag">Zoom</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">MS Office</span>
+            <span class="skill-tag">Microsoft Teams</span>
+            <span class="skill-tag">Google Workspace</span>
+          </div>
+        </div>
+
+        <!-- Technologies -->
+        <div class="skill-category glass-panel" data-scroll-reveal>
+          <h3 class="skill-category-title">
+            <span class="cat-icon">☁</span> Technologies
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS EC2</span>
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">AWS Lambda</span>
+            <span class="skill-tag">DynamoDB</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">Netlify</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">SQLite</span>
+            <span class="skill-tag">Supabase</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Apache</span>
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">MVC</span>
+            <span class="skill-tag">Serverless</span>
+            <span class="skill-tag">JWT Auth</span>
+            <span class="skill-tag">OAuth</span>
+            <span class="skill-tag">API Design</span>
+          </div>
+        </div>
+
+        <!-- Soft + Core Skills -->
+        <div class="skill-category glass-panel" data-scroll-reveal>
+          <h3 class="skill-category-title">
+            <span class="cat-icon">🧠</span> Soft &amp; Core Skills
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Problem solving</span>
+            <span class="skill-tag">Effective communication</span>
+            <span class="skill-tag">Team leadership</span>
+            <span class="skill-tag">Multitasking</span>
+            <span class="skill-tag">Technical documentation</span>
+            <span class="skill-tag">Optimization</span>
+            <span class="skill-tag">Adaptability</span>
+            <span class="skill-tag">Curiosity</span>
+            <span class="skill-tag">Strategic planning</span>
+            <span class="skill-tag">Innovation</span>
+            <span class="skill-tag">Fundamental knowledge</span>
+          </div>
+        </div>
+
+        <!-- Domain & Role-Based Skills -->
+        <div class="skill-category glass-panel" data-scroll-reveal>
+          <h3 class="skill-category-title">
+            <span class="cat-icon">🎯</span> Domain Skills
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Web application development</span>
+            <span class="skill-tag">Role data analyst</span>
+            <span class="skill-tag">Cloud architecture</span>
+            <span class="skill-tag">Computer networking</span>
+            <span class="skill-tag">Real-time operating systems</span>
+            <span class="skill-tag">Product associate</span>
+            <span class="skill-tag">Testing analysis</span>
+            <span class="skill-tag">System design</span>
+            <span class="skill-tag">Cyber security</span>
+            <span class="skill-tag">Data analysis</span>
+            <span class="skill-tag">Research data analysis</span>
+            <span class="skill-tag">Automated testing</span>
+            <span class="skill-tag">Applications networking</span>
+            <span class="skill-tag">Database administrator</span>
+            <span class="skill-tag">Distributed applications</span>
+            <span class="skill-tag">Android developer</span>
+            <span class="skill-tag">UI/UX</span>
+            <span class="skill-tag">Testing quality assurance</span>
+            <span class="skill-tag">Web analytics</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROJECTS SECTION ═══════════════ -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title" data-scroll-reveal>
+        <span class="title-accent">//</span> Projects
+      </h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card glass-panel" data-scroll-reveal data-tilt>
+          <div class="project-header">
+            <span class="project-year">May 2025 – Jun 2025</span>
+            <div class="project-links">
+              <span class="project-icon" title="AI Project">🤖</span>
+            </div>
+          </div>
+          <h3 class="project-title">AI-Powered Smart Synthetic Data Generator</h3>
+          <ul class="project-desc-list">
+            <li>Built an AI-based system to generate customizable synthetic datasets for model training and testing</li>
+            <li>Enabled dynamic schema definition to create structured data based on user requirements</li>
+            <li>Automated dataset generation, reducing manual effort and improving experimentation speed</li>
+            <li>Designed a scalable solution capable of simulating realistic datasets across multiple use cases</li>
+          </ul>
+          <div class="project-tags">
+            <span>Python</span><span>OpenAI API</span>
+          </div>
+        </article>
+        <!-- Project 2 -->
+        <article class="project-card glass-panel" data-scroll-reveal data-tilt>
+          <div class="project-header">
+            <span class="project-year">Mar 2024 – Apr 2024</span>
+            <div class="project-links">
+              <span class="project-icon" title="Full-Stack App">🏠</span>
+            </div>
+          </div>
+          <h3 class="project-title">Real Estate Property Management System</h3>
+          <ul class="project-desc-list">
+            <li>Developed a full-stack web application for buying, selling, renting, and booking properties</li>
+            <li>Implemented advanced filtering features (price, BHK, area, deposits) to enhance search experience</li>
+            <li>Designed backend services for secure data storage and efficient property management</li>
+            <li>Built a responsive and user-friendly interface for seamless navigation</li>
+          </ul>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>MySQL</span>
+          </div>
+        </article>
+        <!-- Project 3 -->
+        <article class="project-card glass-panel" data-scroll-reveal data-tilt>
+          <div class="project-header">
+            <span class="project-year">Jan 2023 – Apr 2023</span>
+            <div class="project-links">
+              <span class="project-icon" title="E-Commerce">🛒</span>
+            </div>
+          </div>
+          <h3 class="project-title">E-Commerce Platform (RCP Stationery Store)</h3>
+          <ul class="project-desc-list">
+            <li>Built a full-stack e-commerce platform to digitize an offline stationery store</li>
+            <li>Enabled product listing, order management, and customer data handling</li>
+            <li>Improved accessibility for students and streamlined the purchasing process</li>
+            <li>Developed a responsive UI for better user experience</li>
+          </ul>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>SQL</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ACHIEVEMENT SECTION ═══════════════ -->
+  <section id="achievement" class="section achievement">
+    <div class="container">
+      <h2 class="section-title" data-scroll-reveal>
+        <span class="title-accent">//</span> Achievement
+      </h2>
+      <div class="achievement-card glass-panel" data-scroll-reveal>
+        <div class="achievement-glow" aria-hidden="true"></div>
+        <div class="achievement-icon">🏆</div>
+        <div class="achievement-body">
+          <h3 class="achievement-title">Participated at Android Development Workshop by Techfest, IIT Bombay</h3>
+          <div class="achievement-meta">
+            <span class="achievement-date">Dec 2024</span>
+            <span class="achievement-divider">•</span>
+            <span class="achievement-issuer">Issued by IIT Bombay</span>
+          </div>
+          <ul class="achievement-details">
+            <li>Got hands-on exposure to Android app development</li>
+            <li>Understood basics of mobile UI &amp; app flow</li>
+            <li>Learned how real-world apps are structured</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CERTIFICATIONS SECTION ═══════════════ -->
+  <section id="certifications" class="section certifications">
+    <div class="container">
+      <h2 class="section-title" data-scroll-reveal>
+        <span class="title-accent">//</span> Certifications
+      </h2>
+      <div class="cert-grid">
+
+        <!-- Cert 1 -->
+        <div class="cert-card-v2 glass-panel" data-scroll-reveal>
+          <div class="cert-card-header">
+            <div class="cert-badge-v2">✦</div>
+            <span class="cert-date">March 24, 2025</span>
+          </div>
+          <h3 class="cert-title-v2">Full Stack Web Development Training Program</h3>
+          <p class="cert-issuer-v2">DevTown</p>
+          <div class="cert-desc">
+            <p>Started with curiosity… ended with real confidence in building things. 💻🚀</p>
+            <p>I've successfully completed a Full Stack Web Development Training Program by DevTown and this one truly
+              felt like a builder's journey.</p>
+            <p><strong>What this phase gave me:</strong></p>
+            <ul>
+              <li>Understanding how frontend + backend actually connect</li>
+              <li>Thinking in terms of real-world applications, not just code</li>
+              <li>Building projects that go beyond tutorials</li>
+            </ul>
+            <p>Somewhere along the way, I stopped just "learning code"… and started thinking like a developer.</p>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card-v2 glass-panel" data-scroll-reveal>
+          <div class="cert-card-header">
+            <div class="cert-badge-v2">✦</div>
+            <span class="cert-date">2025</span>
+          </div>
+          <h3 class="cert-title-v2">Self-Paced Full Stack Web Development Course</h3>
+          <p class="cert-issuer-v2">DevTown</p>
+          <div class="cert-desc">
+            <p>Consistency &gt; motivation.</p>
+            <p>Completed step by step, day by day.</p>
+            <p><strong>What I take from this:</strong></p>
+            <ul>
+              <li>Discipline matters more than speed</li>
+              <li>Every small concept connects over time</li>
+              <li>Learning becomes powerful when you stay consistent</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card-v2 glass-panel" data-scroll-reveal>
+          <div class="cert-card-header">
+            <div class="cert-badge-v2">✦</div>
+            <span class="cert-date">2025</span>
+          </div>
+          <h3 class="cert-title-v2">Full Stack Web Development Project Certification</h3>
+          <p class="cert-issuer-v2">DevTown</p>
+          <div class="cert-desc">
+            <p>Not just learning… actually building something from scratch hits different.</p>
+            <p><strong>What made this valuable:</strong></p>
+            <ul>
+              <li>Turning concepts into a working project</li>
+              <li>Connecting frontend, backend &amp; database</li>
+              <li>Debugging and improving in real-time</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ JOB PREFERENCES SECTION ═══════════════ -->
+  <section id="job-preferences" class="section section-compact job-preferences">
+    <div class="container">
+
+      <!-- Animated System Status Header -->
+      <div class="system-status-header" data-scroll-reveal>
+        <div class="status-line">
+          <span class="status-indicator-dot"></span>
+          <span class="status-typed-text" id="status-typed"></span><span class="type-cursor">|</span>
+        </div>
+      </div>
+
+      <!-- Open For Chips (Compact Row) -->
+      <div class="openfor-chips" data-scroll-reveal>
+        <div class="job-type-tag">Internship</div>
+        <div class="job-type-tag">Full Time</div>
+        <div class="job-type-tag">Part Time</div>
+        <div class="job-type-tag">Volunteering</div>
+        <div class="job-type-tag">Contract</div>
+        <div class="job-type-tag">Internship + PPO</div>
+      </div>
+
+      <!-- Industry Tags (Merged Inline) -->
+      <div class="industry-inline" data-scroll-reveal>
+        <span class="industry-tag">UI/UX</span>
+        <span class="industry-tag">Design &amp; Architecture</span>
+        <span class="industry-tag">Software Engineering</span>
+        <span class="industry-tag">R&amp;D</span>
+        <span class="industry-tag">Marketing</span>
+        <span class="industry-tag">Consulting</span>
+        <span class="industry-tag">Project Management</span>
+        <span class="industry-tag">Data Science</span>
+      </div>
+
+      <!-- Job Roles — Interactive Premium Grid -->
+      <div class="roles-section" data-scroll-reveal>
+        <div class="roles-header">
+          <h3 class="sub-section-title"><span class="title-accent">→</span> Job Roles</h3>
+        </div>
+        <div class="job-roles-grid" id="roles-grid">
+          <!-- Visible roles (first 6) -->
+          <div class="role-card-v2 glass-panel" data-role>
+            <span class="role-icon">⟨/⟩</span>
+            <span class="role-name">Web Programmer</span>
+          </div>
+          <div class="role-card-v2 glass-panel" data-role>
+            <span class="role-icon">📊</span>
+            <span class="role-name">Data Analyst</span>
+          </div>
+          <div class="role-card-v2 glass-panel" data-role>
+            <span class="role-icon">✨</span>
+            <span class="role-name">UI/UX Designer</span>
+          </div>
+          <div class="role-card-v2 glass-panel" data-role>
+            <span class="role-icon">📱</span>
+            <span class="role-name">Mobile App Dev</span>
+          </div>
+          <div class="role-card-v2 glass-panel" data-role>
+            <span class="role-icon">☁️</span>
+            <span class="role-name">Cloud Architect</span>
+          </div>
+          <div class="role-card-v2 glass-panel" data-role>
+            <span class="role-icon">🔒</span>
+            <span class="role-name">Cybersecurity</span>
+          </div>
+          <!-- Hidden roles (expandable) -->
+          <div class="role-card-v2 glass-panel role-hidden" data-role>
+            <span class="role-icon">⚛️</span>
+            <span class="role-name">MERN Stack Dev</span>
+          </div>
+          <div class="role-card-v2 glass-panel role-hidden" data-role>
+            <span class="role-icon">⚙️</span>
+            <span class="role-name">Backend Developer</span>
+          </div>
+          <div class="role-card-v2 glass-panel role-hidden" data-role>
+            <span class="role-icon">🧪</span>
+            <span class="role-name">QA / Testing</span>
+          </div>
+          <div class="role-card-v2 glass-panel role-hidden" data-role>
+            <span class="role-icon">💻</span>
+            <span class="role-name">Software Intern</span>
+          </div>
+          <div class="role-card-v2 glass-panel role-hidden" data-role>
+            <span class="role-icon">🗄️</span>
+            <span class="role-name">Node.js Developer</span>
+          </div>
+          <div class="role-card-v2 glass-panel role-hidden" data-role>
+            <span class="role-icon">🎨</span>
+            <span class="role-name">Graphic Designer</span>
+          </div>
+        </div>
+        <button class="roles-toggle-btn" id="roles-toggle">
+          <span class="toggle-text">View More Roles</span>
+          <span class="toggle-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9" />
+            </svg></span>
+        </button>
+      </div>
+
+      <!-- Preferred Locations -->
+      <h3 class="sub-section-title" data-scroll-reveal>
+        <span class="title-accent">→</span> Preferred Locations
+      </h3>
+
+      <div class="locations-section" data-scroll-reveal>
+
+        <!-- 🌐 Remote — Pinned & Highlighted -->
+        <div class="location-remote-badge">
+          <span class="remote-glow-dot"></span>
+          <span>🌐 Remote Preferred</span>
+        </div>
+
+        <!-- ════ PRIMARY / TOP LOCATIONS (Always Visible) ════ -->
+        <div class="location-groups">
+
+          <!-- 🇮🇳 India -->
+          <div class="location-group">
+            <span class="location-group-label">🇮🇳 India</span>
+            <div class="location-group-tags">
+              <span class="location-tag location-primary">Bengaluru</span>
+              <span class="location-tag location-primary">Pune</span>
+              <span class="location-tag location-primary">Mumbai</span>
+              <span class="location-tag location-primary">Delhi</span>
+              <span class="location-tag location-primary">Nashik</span>
+            </div>
+          </div>
+
+          <!-- 🇨🇦 Canada -->
+          <div class="location-group">
+            <span class="location-group-label">🇨🇦 Canada</span>
+            <div class="location-group-tags">
+              <span class="location-tag location-primary">Toronto</span>
+              <span class="location-tag location-primary">Vancouver</span>
+            </div>
+          </div>
+
+          <!-- 🇦🇺 Australia -->
+          <div class="location-group">
+            <span class="location-group-label">🇦🇺 Australia</span>
+            <div class="location-group-tags">
+              <span class="location-tag location-primary">Sydney</span>
+              <span class="location-tag location-primary">Melbourne</span>
+              <span class="location-tag location-primary">Perth</span>
+              <span class="location-tag location-primary">Brisbane</span>
+              <span class="location-tag location-primary">Adelaide</span>
+              <span class="location-tag location-primary">Hobart</span>
+            </div>
+          </div>
+
+          <!-- 🇯🇵 Japan -->
+          <div class="location-group">
+            <span class="location-group-label">🇯🇵 Japan</span>
+            <div class="location-group-tags">
+              <span class="location-tag location-primary">Tokyo</span>
+              <span class="location-tag location-primary">Osaka</span>
+            </div>
+          </div>
+
+          <!-- 🌏 Asia -->
+          <div class="location-group">
+            <span class="location-group-label">🌏 Asia</span>
+            <div class="location-group-tags">
+              <span class="location-tag location-primary">Singapore</span>
+              <span class="location-tag location-primary">Dubai</span>
+            </div>
+          </div>
+
+          <!-- 🇺🇸 USA -->
+          <div class="location-group">
+            <span class="location-group-label">🇺🇸 USA</span>
+            <div class="location-group-tags">
+              <span class="location-tag location-primary">San Francisco</span>
+              <span class="location-tag location-primary">Seattle</span>
+              <span class="location-tag location-primary">Austin</span>
+              <span class="location-tag location-primary">New York City</span>
+              <span class="location-tag location-primary">San Diego</span>
+            </div>
+          </div>
+
+          <!-- 🇬🇧 UK -->
+          <div class="location-group">
+            <span class="location-group-label">🇬🇧 UK</span>
+            <div class="location-group-tags">
+              <span class="location-tag location-primary">London</span>
+              <span class="location-tag location-primary">Manchester</span>
+            </div>
+          </div>
+
+          <!-- 🇪🇺 Europe -->
+          <div class="location-group">
+            <span class="location-group-label">🇪🇺 Europe</span>
+            <div class="location-group-tags">
+              <span class="location-tag location-primary">Berlin</span>
+              <span class="location-tag location-primary">Warsaw</span>
+              <span class="location-tag location-primary">Amsterdam</span>
+              <span class="location-tag location-primary">Barcelona</span>
+              <span class="location-tag location-primary">Madrid</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ════ VIEW MORE LOCATIONS (Expandable) ════ -->
+        <button class="locations-toggle-btn" id="locations-toggle" aria-expanded="false">
+          <span class="toggle-text">View More Locations</span>
+          <span class="toggle-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </span>
+        </button>
+
+        <div class="locations-expanded" id="locations-expanded">
+          <div class="locations-expanded-inner">
+
+            <!-- All remaining original locations -->
+            <div class="location-group">
+              <span class="location-group-label">🇮🇳 More India</span>
+              <div class="location-group-tags">
+                <span class="location-tag">Agra</span>
+                <span class="location-tag">Ahmedabad</span>
+                <span class="location-tag">Diu & Daman</span>
+                <span class="location-tag">Ghandinagar</span>
+                <span class="location-tag">Hyderabad</span>
+                <span class="location-tag">Indore</span>
+                <span class="location-tag">Jammu &amp; Kashmir</span>
+                <span class="location-tag">Jodhpur</span>
+                <span class="location-tag">Kalyan</span>
+                <span class="location-tag">New Delhi</span>
+                <span class="location-tag">Rajkot</span>
+                <span class="location-tag">Shimla</span>
+                <span class="location-tag">Surat</span>
+                <span class="location-tag">Ujjain</span>
+                <span class="location-tag">Vadodara</span>
+              </div>
+            </div>
+
+            <div class="location-group">
+              <span class="location-group-label">🇺🇸 More USA</span>
+              <div class="location-group-tags">
+                <span class="location-tag">Charlotte</span>
+                <span class="location-tag">Denver</span>
+                <span class="location-tag">Los Angeles</span>
+                <span class="location-tag">San Antonio</span>
+                <span class="location-tag">San Jose</span>
+              </div>
+            </div>
+
+            <div class="location-group">
+              <span class="location-group-label">🇨🇦 More Canada</span>
+              <div class="location-group-tags">
+                <span class="location-tag">North York</span>
+                <span class="location-tag">St. John's</span>
+                <span class="location-tag">Victoria</span>
+                <span class="location-tag">Waterloo</span>
+                <span class="location-tag">Winnipeg</span>
+              </div>
+            </div>
+
+            <!-- 30 Additional Global Tech Cities -->
+            <div class="location-group">
+              <span class="location-group-label">🇪🇺 More Europe</span>
+              <div class="location-group-tags">
+                <span class="location-tag">Zurich</span>
+                <span class="location-tag">Stockholm</span>
+                <span class="location-tag">Copenhagen</span>
+                <span class="location-tag">Helsinki</span>
+                <span class="location-tag">Oslo</span>
+                <span class="location-tag">Dublin</span>
+                <span class="location-tag">Edinburgh</span>
+                <span class="location-tag">Prague</span>
+                <span class="location-tag">Vienna</span>
+                <span class="location-tag">Budapest</span>
+                <span class="location-tag">Lisbon</span>
+                <span class="location-tag">Frankfurt</span>
+                <span class="location-tag">Hamburg</span>
+                <span class="location-tag">Rome</span>
+                <span class="location-tag">Geneva</span>
+              </div>
+            </div>
+
+            <div class="location-group">
+              <span class="location-group-label">🌏 More Asia &amp; Middle East</span>
+              <div class="location-group-tags">
+                <span class="location-tag">Doha</span>
+                <span class="location-tag">Abu Dhabi</span>
+                <span class="location-tag">Bangkok</span>
+                <span class="location-tag">Jakarta</span>
+                <span class="location-tag">Manila</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT SECTION ═══════════════ -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title" data-scroll-reveal>
+        <span class="title-accent">//</span> Get In Touch
+      </h2>
+      <div class="contact-grid">
+        <div class="contact-text glass-panel" data-scroll-reveal>
+          <p>Have a project in mind, or just want to connect? I'm always open to discussing new ideas, collaborations,
+            and opportunities.</p>
+          <a href="mailto:jaymore4501@gmail.com" class="btn btn-primary contact-btn" id="contact-email-btn">
+            <span>📧</span> jaymore4501@gmail.com
+          </a>
+        </div>
+        <div class="contact-links glass-panel" data-scroll-reveal>
+          <a href="https://www.linkedin.com/in/jay-more-5767a0400/" target="_blank" rel="noopener noreferrer"
+            class="social-link" id="linkedin-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/jaymore4501" target="_blank" rel="noopener noreferrer" class="social-link"
+            id="github-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        <span class="footer-name">Jay More</span> &copy; 2025 — Designed &amp; Built with passion
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
