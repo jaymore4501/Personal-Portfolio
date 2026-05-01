@@ -3,6 +3,11 @@
 A sleek, modern **personal portfolio website** built with **HTML, CSS, and JavaScript**, featuring a bold **violet-themed UI**, glassmorphism, and smooth interactive animations.
 
 ---
+## Preview
+
+![Website Preview](Preview.png)
+---
+
 
 ## ✨ Highlights
 
