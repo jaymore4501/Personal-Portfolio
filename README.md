@@ -58,12 +58,14 @@ Open `index.html` in your browser.
 
 ---
 
+## 💡 Note
+
+A minimal yet powerful showcase of modern UI/UX using pure web technologies.
+
+---
+
 ## ⚠️ License
 
 **Proprietary** — Do not copy, reuse, or distribute without permission.
 
 ---
-
-## 💡 Note
-
-A minimal yet powerful showcase of modern UI/UX using pure web technologies.
