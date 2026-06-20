@@ -2,7 +2,7 @@
 
 A sleek, modern, and highly interactive **personal portfolio website** built with **HTML, CSS, and JavaScript**. This project features a bold **violet-themed UI**, modern glassmorphism elements, and smooth dynamic animations to create a memorable user experience.
 
-![Portfolio Preview](./preview.png) *(Add a screenshot here)*
+![Portfolio Preview](./Preview.png)
 
 ---
 
